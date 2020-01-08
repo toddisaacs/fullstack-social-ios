@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABA132A23C62017008A5782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA132923C62017008A5782 /* AppDelegate.swift */; };
+		DABA132C23C62017008A5782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA132B23C62017008A5782 /* SceneDelegate.swift */; };
+		DABA132E23C62017008A5782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA132D23C62017008A5782 /* ViewController.swift */; };
+		DABA133123C62017008A5782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABA132F23C62017008A5782 /* Main.storyboard */; };
+		DABA133323C62019008A5782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABA133223C62019008A5782 /* Assets.xcassets */; };
+		DABA133623C62019008A5782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABA133423C62019008A5782 /* LaunchScreen.storyboard */; };
+		DABA134123C62019008A5782 /* fullstack_social_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA134023C62019008A5782 /* fullstack_social_iosTests.swift */; };
+		DABA134C23C62019008A5782 /* fullstack_social_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA134B23C62019008A5782 /* fullstack_social_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABA133D23C62019008A5782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA131E23C62017008A5782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABA132523C62017008A5782;
+			remoteInfo = "fullstack-social-ios";
+		};
+		DABA134823C62019008A5782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA131E23C62017008A5782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABA132523C62017008A5782;
+			remoteInfo = "fullstack-social-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DABA132623C62017008A5782 /* fullstack-social-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fullstack-social-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA132923C62017008A5782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DABA132B23C62017008A5782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DABA132D23C62017008A5782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DABA133023C62017008A5782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABA133223C62019008A5782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABA133523C62019008A5782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABA133723C62019008A5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABA133C23C62019008A5782 /* fullstack-social-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fullstack-social-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA134023C62019008A5782 /* fullstack_social_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fullstack_social_iosTests.swift; sourceTree = "<group>"; };
+		DABA134223C62019008A5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABA134723C62019008A5782 /* fullstack-social-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fullstack-social-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA134B23C62019008A5782 /* fullstack_social_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fullstack_social_iosUITests.swift; sourceTree = "<group>"; };
+		DABA134D23C62019008A5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABA132323C62017008A5782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA133923C62019008A5782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA134423C62019008A5782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABA131D23C62017008A5782 = {
+			isa = PBXGroup;
+			children = (
+				DABA132823C62017008A5782 /* fullstack-social-ios */,
+				DABA133F23C62019008A5782 /* fullstack-social-iosTests */,
+				DABA134A23C62019008A5782 /* fullstack-social-iosUITests */,
+				DABA132723C62017008A5782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABA132723C62017008A5782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABA132623C62017008A5782 /* fullstack-social-ios.app */,
+				DABA133C23C62019008A5782 /* fullstack-social-iosTests.xctest */,
+				DABA134723C62019008A5782 /* fullstack-social-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABA132823C62017008A5782 /* fullstack-social-ios */ = {
+			isa = PBXGroup;
+			children = (
+				DABA132923C62017008A5782 /* AppDelegate.swift */,
+				DABA132B23C62017008A5782 /* SceneDelegate.swift */,
+				DABA132D23C62017008A5782 /* ViewController.swift */,
+				DABA132F23C62017008A5782 /* Main.storyboard */,
+				DABA133223C62019008A5782 /* Assets.xcassets */,
+				DABA133423C62019008A5782 /* LaunchScreen.storyboard */,
+				DABA133723C62019008A5782 /* Info.plist */,
+			);
+			path = "fullstack-social-ios";
+			sourceTree = "<group>";
+		};
+		DABA133F23C62019008A5782 /* fullstack-social-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABA134023C62019008A5782 /* fullstack_social_iosTests.swift */,
+				DABA134223C62019008A5782 /* Info.plist */,
+			);
+			path = "fullstack-social-iosTests";
+			sourceTree = "<group>";
+		};
+		DABA134A23C62019008A5782 /* fullstack-social-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DABA134B23C62019008A5782 /* fullstack_social_iosUITests.swift */,
+				DABA134D23C62019008A5782 /* Info.plist */,
+			);
+			path = "fullstack-social-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABA132523C62017008A5782 /* fullstack-social-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABA135023C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-ios" */;
+			buildPhases = (
+				DABA132223C62017008A5782 /* Sources */,
+				DABA132323C62017008A5782 /* Frameworks */,
+				DABA132423C62017008A5782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fullstack-social-ios";
+			productName = "fullstack-social-ios";
+			productReference = DABA132623C62017008A5782 /* fullstack-social-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DABA133B23C62019008A5782 /* fullstack-social-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABA135323C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-iosTests" */;
+			buildPhases = (
+				DABA133823C62019008A5782 /* Sources */,
+				DABA133923C62019008A5782 /* Frameworks */,
+				DABA133A23C62019008A5782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABA133E23C62019008A5782 /* PBXTargetDependency */,
+			);
+			name = "fullstack-social-iosTests";
+			productName = "fullstack-social-iosTests";
+			productReference = DABA133C23C62019008A5782 /* fullstack-social-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DABA134623C62019008A5782 /* fullstack-social-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABA135623C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-iosUITests" */;
+			buildPhases = (
+				DABA134323C62019008A5782 /* Sources */,
+				DABA134423C62019008A5782 /* Frameworks */,
+				DABA134523C62019008A5782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABA134923C62019008A5782 /* PBXTargetDependency */,
+			);
+			name = "fullstack-social-iosUITests";
+			productName = "fullstack-social-iosUITests";
+			productReference = DABA134723C62019008A5782 /* fullstack-social-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABA131E23C62017008A5782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Todd Isaacs";
+				TargetAttributes = {
+					DABA132523C62017008A5782 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					DABA133B23C62019008A5782 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = DABA132523C62017008A5782;
+					};
+					DABA134623C62019008A5782 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = DABA132523C62017008A5782;
+					};
+				};
+			};
+			buildConfigurationList = DABA132123C62017008A5782 /* Build configuration list for PBXProject "fullstack-social-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABA131D23C62017008A5782;
+			productRefGroup = DABA132723C62017008A5782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABA132523C62017008A5782 /* fullstack-social-ios */,
+				DABA133B23C62019008A5782 /* fullstack-social-iosTests */,
+				DABA134623C62019008A5782 /* fullstack-social-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABA132423C62017008A5782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA133623C62019008A5782 /* LaunchScreen.storyboard in Resources */,
+				DABA133323C62019008A5782 /* Assets.xcassets in Resources */,
+				DABA133123C62017008A5782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA133A23C62019008A5782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA134523C62019008A5782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABA132223C62017008A5782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA132E23C62017008A5782 /* ViewController.swift in Sources */,
+				DABA132A23C62017008A5782 /* AppDelegate.swift in Sources */,
+				DABA132C23C62017008A5782 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA133823C62019008A5782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA134123C62019008A5782 /* fullstack_social_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA134323C62019008A5782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA134C23C62019008A5782 /* fullstack_social_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DABA133E23C62019008A5782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABA132523C62017008A5782 /* fullstack-social-ios */;
+			targetProxy = DABA133D23C62019008A5782 /* PBXContainerItemProxy */;
+		};
+		DABA134923C62019008A5782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABA132523C62017008A5782 /* fullstack-social-ios */;
+			targetProxy = DABA134823C62019008A5782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DABA132F23C62017008A5782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABA133023C62017008A5782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABA133423C62019008A5782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABA133523C62019008A5782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABA134E23C62019008A5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DABA134F23C62019008A5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABA135123C62019008A5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C759Q4CFH;
+				INFOPLIST_FILE = "fullstack-social-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teisaacs.fullstack-social-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABA135223C62019008A5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C759Q4CFH;
+				INFOPLIST_FILE = "fullstack-social-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teisaacs.fullstack-social-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DABA135423C62019008A5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C759Q4CFH;
+				INFOPLIST_FILE = "fullstack-social-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teisaacs.fullstack-social-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fullstack-social-ios.app/fullstack-social-ios";
+			};
+			name = Debug;
+		};
+		DABA135523C62019008A5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C759Q4CFH;
+				INFOPLIST_FILE = "fullstack-social-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teisaacs.fullstack-social-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fullstack-social-ios.app/fullstack-social-ios";
+			};
+			name = Release;
+		};
+		DABA135723C62019008A5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C759Q4CFH;
+				INFOPLIST_FILE = "fullstack-social-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teisaacs.fullstack-social-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fullstack-social-ios";
+			};
+			name = Debug;
+		};
+		DABA135823C62019008A5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C759Q4CFH;
+				INFOPLIST_FILE = "fullstack-social-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teisaacs.fullstack-social-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fullstack-social-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABA132123C62017008A5782 /* Build configuration list for PBXProject "fullstack-social-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA134E23C62019008A5782 /* Debug */,
+				DABA134F23C62019008A5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABA135023C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA135123C62019008A5782 /* Debug */,
+				DABA135223C62019008A5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABA135323C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA135423C62019008A5782 /* Debug */,
+				DABA135523C62019008A5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABA135623C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA135723C62019008A5782 /* Debug */,
+				DABA135823C62019008A5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABA131E23C62017008A5782 /* Project object */;
+}
