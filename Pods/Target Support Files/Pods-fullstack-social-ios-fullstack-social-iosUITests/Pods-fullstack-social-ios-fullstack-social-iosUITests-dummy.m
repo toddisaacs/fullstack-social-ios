@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_fullstack_social_ios_fullstack_social_iosUITests : NSObject
+@end
+@implementation PodsDummy_Pods_fullstack_social_ios_fullstack_social_iosUITests
+@end

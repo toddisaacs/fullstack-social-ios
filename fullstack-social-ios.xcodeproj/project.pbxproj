@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BBFE17D59A456721FD3A4D2 /* Pods_fullstack_social_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3E323F5D83AB9506DAF646 /* Pods_fullstack_social_iosTests.framework */; };
+		78F829CC58C5CC55A746A5F5 /* Pods_fullstack_social_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A9D85E6054998D584D6287 /* Pods_fullstack_social_ios.framework */; };
+		C2841335D99C7A9AA8BCCB48 /* Pods_fullstack_social_ios_fullstack_social_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B27DFBDAAE6CAFAC40A630B /* Pods_fullstack_social_ios_fullstack_social_iosUITests.framework */; };
 		DABA132A23C62017008A5782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA132923C62017008A5782 /* AppDelegate.swift */; };
 		DABA132C23C62017008A5782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA132B23C62017008A5782 /* SceneDelegate.swift */; };
 		DABA132E23C62017008A5782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA132D23C62017008A5782 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		DABA133623C62019008A5782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABA133423C62019008A5782 /* LaunchScreen.storyboard */; };
 		DABA134123C62019008A5782 /* fullstack_social_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA134023C62019008A5782 /* fullstack_social_iosTests.swift */; };
 		DABA134C23C62019008A5782 /* fullstack_social_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA134B23C62019008A5782 /* fullstack_social_iosUITests.swift */; };
+		DABA135A23C6206D008A5782 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DABA135923C6206D008A5782 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B27DFBDAAE6CAFAC40A630B /* Pods_fullstack_social_ios_fullstack_social_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fullstack_social_ios_fullstack_social_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE6BAD56D58BF2687F78A1D /* Pods-fullstack-social-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fullstack-social-ios.release.xcconfig"; path = "Target Support Files/Pods-fullstack-social-ios/Pods-fullstack-social-ios.release.xcconfig"; sourceTree = "<group>"; };
+		61A9D85E6054998D584D6287 /* Pods_fullstack_social_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fullstack_social_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE56547FE3AC3026571E9EA /* Pods-fullstack-social-ios-fullstack-social-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fullstack-social-ios-fullstack-social-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-fullstack-social-ios-fullstack-social-iosUITests/Pods-fullstack-social-ios-fullstack-social-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87C266764471F5427AD1242D /* Pods-fullstack-social-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fullstack-social-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-fullstack-social-iosTests/Pods-fullstack-social-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3E323F5D83AB9506DAF646 /* Pods_fullstack_social_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fullstack_social_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDC0A7AE6A9521FB7710D9A /* Pods-fullstack-social-ios-fullstack-social-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fullstack-social-ios-fullstack-social-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-fullstack-social-ios-fullstack-social-iosUITests/Pods-fullstack-social-ios-fullstack-social-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC5854C09EF1BCAE32B7E47 /* Pods-fullstack-social-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fullstack-social-ios.debug.xcconfig"; path = "Target Support Files/Pods-fullstack-social-ios/Pods-fullstack-social-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		C5289BEE3DEE8CC46CACD1DA /* Pods-fullstack-social-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fullstack-social-iosTests.release.xcconfig"; path = "Target Support Files/Pods-fullstack-social-iosTests/Pods-fullstack-social-iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		DABA132623C62017008A5782 /* fullstack-social-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fullstack-social-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABA132923C62017008A5782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABA132B23C62017008A5782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		DABA134723C62019008A5782 /* fullstack-social-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fullstack-social-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABA134B23C62019008A5782 /* fullstack_social_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fullstack_social_iosUITests.swift; sourceTree = "<group>"; };
 		DABA134D23C62019008A5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABA135923C6206D008A5782 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F829CC58C5CC55A746A5F5 /* Pods_fullstack_social_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBFE17D59A456721FD3A4D2 /* Pods_fullstack_social_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +86,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2841335D99C7A9AA8BCCB48 /* Pods_fullstack_social_ios_fullstack_social_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F48CCEABF072BD0A9521E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FC5854C09EF1BCAE32B7E47 /* Pods-fullstack-social-ios.debug.xcconfig */,
+				3EE6BAD56D58BF2687F78A1D /* Pods-fullstack-social-ios.release.xcconfig */,
+				8EDC0A7AE6A9521FB7710D9A /* Pods-fullstack-social-ios-fullstack-social-iosUITests.debug.xcconfig */,
+				7EE56547FE3AC3026571E9EA /* Pods-fullstack-social-ios-fullstack-social-iosUITests.release.xcconfig */,
+				87C266764471F5427AD1242D /* Pods-fullstack-social-iosTests.debug.xcconfig */,
+				C5289BEE3DEE8CC46CACD1DA /* Pods-fullstack-social-iosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		279FF302A37CFB1286814ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61A9D85E6054998D584D6287 /* Pods_fullstack_social_ios.framework */,
+				1B27DFBDAAE6CAFAC40A630B /* Pods_fullstack_social_ios_fullstack_social_iosUITests.framework */,
+				8C3E323F5D83AB9506DAF646 /* Pods_fullstack_social_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DABA131D23C62017008A5782 = {
 			isa = PBXGroup;
 			children = (
+				DABA135923C6206D008A5782 /* Podfile */,
 				DABA132823C62017008A5782 /* fullstack-social-ios */,
 				DABA133F23C62019008A5782 /* fullstack-social-iosTests */,
 				DABA134A23C62019008A5782 /* fullstack-social-iosUITests */,
 				DABA132723C62017008A5782 /* Products */,
+				09F48CCEABF072BD0A9521E7 /* Pods */,
+				279FF302A37CFB1286814ECF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DABA135023C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-ios" */;
 			buildPhases = (
+				842B3AF71F0EDD4FFE42CD91 /* [CP] Check Pods Manifest.lock */,
 				DABA132223C62017008A5782 /* Sources */,
 				DABA132323C62017008A5782 /* Frameworks */,
 				DABA132423C62017008A5782 /* Resources */,
+				EE81458D09050BFE4E78001E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DABA135323C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-iosTests" */;
 			buildPhases = (
+				F96AE99067F78BE6F71A0E4A /* [CP] Check Pods Manifest.lock */,
 				DABA133823C62019008A5782 /* Sources */,
 				DABA133923C62019008A5782 /* Frameworks */,
 				DABA133A23C62019008A5782 /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DABA135623C62019008A5782 /* Build configuration list for PBXNativeTarget "fullstack-social-iosUITests" */;
 			buildPhases = (
+				D468EABA6AE7A7F704F267AD /* [CP] Check Pods Manifest.lock */,
 				DABA134323C62019008A5782 /* Sources */,
 				DABA134423C62019008A5782 /* Frameworks */,
 				DABA134523C62019008A5782 /* Resources */,
+				48DCA8AB9083C78FAC972BFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +283,7 @@
 			files = (
 				DABA133623C62019008A5782 /* LaunchScreen.storyboard in Resources */,
 				DABA133323C62019008A5782 /* Assets.xcassets in Resources */,
+				DABA135A23C6206D008A5782 /* Podfile in Resources */,
 				DABA133123C62017008A5782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48DCA8AB9083C78FAC972BFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fullstack-social-ios-fullstack-social-iosUITests/Pods-fullstack-social-ios-fullstack-social-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fullstack-social-ios-fullstack-social-iosUITests/Pods-fullstack-social-ios-fullstack-social-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fullstack-social-ios-fullstack-social-iosUITests/Pods-fullstack-social-ios-fullstack-social-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		842B3AF71F0EDD4FFE42CD91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fullstack-social-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D468EABA6AE7A7F704F267AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fullstack-social-ios-fullstack-social-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE81458D09050BFE4E78001E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fullstack-social-ios/Pods-fullstack-social-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fullstack-social-ios/Pods-fullstack-social-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fullstack-social-ios/Pods-fullstack-social-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96AE99067F78BE6F71A0E4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fullstack-social-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DABA132223C62017008A5782 /* Sources */ = {
@@ -432,6 +585,7 @@
 		};
 		DABA135123C62019008A5782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC5854C09EF1BCAE32B7E47 /* Pods-fullstack-social-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +604,7 @@
 		};
 		DABA135223C62019008A5782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE6BAD56D58BF2687F78A1D /* Pods-fullstack-social-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +623,7 @@
 		};
 		DABA135423C62019008A5782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C266764471F5427AD1242D /* Pods-fullstack-social-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +646,7 @@
 		};
 		DABA135523C62019008A5782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5289BEE3DEE8CC46CACD1DA /* Pods-fullstack-social-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +669,7 @@
 		};
 		DABA135723C62019008A5782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDC0A7AE6A9521FB7710D9A /* Pods-fullstack-social-ios-fullstack-social-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +690,7 @@
 		};
 		DABA135823C62019008A5782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE56547FE3AC3026571E9EA /* Pods-fullstack-social-ios-fullstack-social-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
