@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		DABA134123C62019008A5782 /* fullstack_social_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA134023C62019008A5782 /* fullstack_social_iosTests.swift */; };
 		DABA134C23C62019008A5782 /* fullstack_social_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA134B23C62019008A5782 /* fullstack_social_iosUITests.swift */; };
 		DABA135A23C6206D008A5782 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DABA135923C6206D008A5782 /* Podfile */; };
+		DABA135C23C622F5008A5782 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA135B23C622F5008A5782 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		DABA134B23C62019008A5782 /* fullstack_social_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fullstack_social_iosUITests.swift; sourceTree = "<group>"; };
 		DABA134D23C62019008A5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DABA135923C6206D008A5782 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DABA135B23C622F5008A5782 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,6 @@
 				87C266764471F5427AD1242D /* Pods-fullstack-social-iosTests.debug.xcconfig */,
 				C5289BEE3DEE8CC46CACD1DA /* Pods-fullstack-social-iosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +151,7 @@
 				DABA133223C62019008A5782 /* Assets.xcassets */,
 				DABA133423C62019008A5782 /* LaunchScreen.storyboard */,
 				DABA133723C62019008A5782 /* Info.plist */,
+				DABA135B23C622F5008A5782 /* HomeController.swift */,
 			);
 			path = "fullstack-social-ios";
 			sourceTree = "<group>";
@@ -412,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABA135C23C622F5008A5782 /* HomeController.swift in Sources */,
 				DABA132E23C62017008A5782 /* ViewController.swift in Sources */,
 				DABA132A23C62017008A5782 /* AppDelegate.swift in Sources */,
 				DABA132C23C62017008A5782 /* SceneDelegate.swift in Sources */,
@@ -591,6 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
 				INFOPLIST_FILE = "fullstack-social-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -610,6 +614,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
 				INFOPLIST_FILE = "fullstack-social-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
